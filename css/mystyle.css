@@ -1,0 +1,62 @@
+body { padding-top: 82px; }
+.custom-navbar{background-color: #fff;  border-bottom: 2px solid #006c8c;}
+.btn-login{background-color: #166D8D ;}
+.btn-login a {color:#fff;}
+.nav>li>a:hover, .nav>li>a:focus{background-color: transparent;}
+.navbar-nav>li>a{padding-top:0; padding-bottom: 0;}
+.navbar-nav{margin-top: 20px;}
+.navbar-brand{margin-top: 10px; font-size: 25px;}
+.navbar-toggle{border: 1px solid #006c8c;}
+.navbar-toggle .icon-bar{background-color: #006c8c;}
+.banner{background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2))
+, url(../images/hotel.jpg) no-repeat center center; height: 650px; background-size: cover; position: relative;}
+#footer{background-color:#166D8D ; color:#fff; text-align: center; padding-top: 10px; padding-bottom: 10px;}
+#footer p {margin:0;}
+#label_user_type{color:#ffffff; font-weight: 700; padding: 0 10px;}
+.content-banner h1{color:#fff; font-size: 3.2rem; font-weight: 700;	}
+.content-banner p {color:#fff;}
+.content-banner{margin-top: 40%; padding: 20px;}
+.content-register{ background-color: rgba(6,41,68,.9);  width:70%; z-index: 1; height: 650px; position: relative;}
+.content-register form{width:80%; margin: 0 auto; padding: 50px 0;}
+.content-register form label{color:#fff;}
+input[type="submit"] {background-color: #f89c02; color:#000; font-size: 16px; }
+input[type="reset"]{background-color: #fff; color:#000;}
+#login .modal-header .close {
+    margin-top: -22px;
+}
+#hotel-info{margin-bottom: 100px;}
+#hotel-info .title{text-align: center;}
+p.title{font-size: 16px;}
+#hotels{width:100%;  border-collapse: collapse;}
+#hotels td, #hotels th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+
+#hotels th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+img{width:100%;}
+table td img{width:150px;}
+
+.radio-field{color:#ffffff;}
+.title_adm{text-align: center; margin: 10px 0;}
+#admin_report{
+	min-height: 470px;
+}
+#booking_id{border:0;}
+#confirm{margin-right: 10px;}
+
+@media only screen and (max-width: 991px){
+	.content-banner{margin-top: 0;}
+}
+@media only screen and (max-width: 768px){
+	.content-register{height: auto; margin-bottom: 20px;}
+	.content-register form{padding: 30px 0;}
+}
